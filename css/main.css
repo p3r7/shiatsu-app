@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.aka-bttn, .aka-choice {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    min-height: 50px;
+    /* line-height: 50px; */
+    padding-top: 25px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.aka-choice.selected {
+    border-width: 2px;
+}
+
+.aka-choice.wrong {
+    color: red;
+    background-color: lightcoral;
+}
+
+.aka-choice.correct {
+    color: green;
+    background-color: lightgreen;
+}
+
+#aka-img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
