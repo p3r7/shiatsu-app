@@ -123,7 +123,8 @@ define(function () {
 
 		getMeridiansSelect : function (index) {
 			var select = '<select id="meridian-select">'
-			for (i = 0 ; i < this.meridianLabels.length ; i++) {
+			// for (i = 0 ; i < this.meridianLabels.length ; i++) {
+			for (i = 0 ; i < 12 ; i++) {
 				var meridian = this.meridianLabels[i]
 				select += '<option value="' + meridian['enAbbrev'] +'">' + meridian['frAbbrev'] + '</option>'
 			}
@@ -133,7 +134,8 @@ define(function () {
 
 		getPointTypesSelect : function (index) {
 			var select = '<select id="point-type-select">'
-			for (i = 0 ; i < this.pointTypeList.length ; i++) {
+			// for (i = 0 ; i < this.pointTypeList.length ; i++) {
+			for (i = 0 ; i < 11 ; i++) {
 				var pointType = this.pointTypeList[i]
 				select += '<option value="' + pointType +'">' + pointType + '</option>'
 			}
@@ -152,7 +154,8 @@ define(function () {
 
 			meridian.point = {}
 			var rawMeridianProps = this.meridianPointProperties[index]
-			for (i = 0 ; i < rawMeridianProps.length ; i++) {
+			// for (i = 0 ; i < rawMeridianProps.length ; i++) {
+			for (i = 0 ; i < 12 ; i++) {
 				var prop = rawMeridianProps[i]
 				if (i === 0) {
 					meridian.nbPoints = prop

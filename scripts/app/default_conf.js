@@ -18,7 +18,7 @@ define(function () {
 	    "Iu",
 	    "King",
 	    "Ho",
-	    "Xi",
+	    // "Xi",
 	],
 	filteredMeridianList: [
 	    // MP
@@ -36,14 +36,14 @@ define(function () {
 	    'F',
 
 	    // 8MV
-	    'VG',
-	    'VC',
-	    'VV',
-	    'VCe',
-	    'VMYG',
-	    'VMYN',
-	    'VRYG',
-	    'VRYN',
+	    // 'VG',
+	    // 'VC',
+	    // 'VV',
+	    // 'VCe',
+	    // 'VMYG',
+	    // 'VMYN',
+	    // 'VRYG',
+	    // 'VRYN',
 	]
     }
 });
