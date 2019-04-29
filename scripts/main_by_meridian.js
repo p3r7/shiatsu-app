@@ -21,7 +21,7 @@ requirejs(['jquery', 'app/conf', 'app/default_conf', 'app/db', 'app/images'], fu
 		diplayConsult(meridian);
 	} else {
 		var selectHtml = db.getMeridiansSelect();
-		$('#aka-meidians-select-container').html(selectHtml);
+		$('#aka-meridians-select-container').html(selectHtml);
 	}
 
 	$('#meridian-select').on('change', function() {
